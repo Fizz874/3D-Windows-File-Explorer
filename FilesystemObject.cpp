@@ -1,7 +1,6 @@
 #include "FilesystemObject.h"
 #include "myWall.h"
-#include "myTeapot.h"
-#include "myCubeX.h"
+
 //#include <FileManager.h>
 #include <iostream>
 

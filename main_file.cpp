@@ -140,16 +140,16 @@ void initOpenGLProgram(GLFWwindow* window) {
 	glfwSetWindowSizeCallback(window, windowResizeCallback);
 	glfwSetKeyCallback(window, keyCallback);
 	sp = new ShaderProgram("v_simplest1.glsl", NULL, "f_simplest1.glsl");
-	tex[0] = readTexture("trawa1.png");
-	tex[1] = readTexture("wood_cabinet_worn_long_diff_2k.png");
-	tex[2] = readTexture(/*"bricks.png"*/"rustic_stone_wall_diff_2k.png");
-	tex[3] = readTexture("monastery_stone_floor_diff_2k.png"/* "stone-wall.png"*/);
+	tex[0] = readTexture("textures/trawa1.png");
+	tex[1] = readTexture("textures/wood_cabinet_worn_long_diff_2k.png");
+	tex[2] = readTexture(/*"bricks.png"*/"textures/rustic_stone_wall_diff_2k.png");
+	tex[3] = readTexture("textures/monastery_stone_floor_diff_2k.png"/* "stone-wall.png"*/);
 	tex[4] = readTexture("models/wooden_door.png");//door texture
-	tex[5] = readTexture("gold2.png");//star texture
-	tex[6] = readTexture("metal6.png");//lock texture
-	tex[7] = readTexture("metal5.png");//camera texture
-	tex[8] = readTexture("headphones.png");//headphones texture
-	tex[9] = readTexture("Plastic-Textures.png");//lego texture
+	tex[5] = readTexture("textures/gold2.png");//star texture
+	tex[6] = readTexture("textures/metal6.png");//lock texture
+	tex[7] = readTexture("textures/metal5.png");//camera texture
+	tex[8] = readTexture("textures/headphones.png");//headphones texture
+	tex[9] = readTexture("textures/Plastic-Textures.png");//lego texture
 	tex[10] = readTexture("models/paper_clip_metal.png");//paperclip texture
 }
 
@@ -414,7 +414,7 @@ int main(void)
 	fmanager = new FileManager();
 	fmanager->LoadObjects();
 	
-	std::string initPath = "C:\\"; //Place for the path to start folder (with "\\" instead of "\")
+	std::string initPath = "C:\\Users\\filip\\Documents\\Filip"; //Place for the path to start folder (with "\\" instead of "\")
 	initPath = initPath.replace(initPath.find("\\"), 1, "/");
 
 
