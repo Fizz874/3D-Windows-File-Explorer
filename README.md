@@ -36,6 +36,19 @@ on a sense of adventure, like navigating a fortress in search of hidden treasure
 The program was written in C++ using Visual Studio. 
 It runs on Windows and uses GLFW and OpenGL for managing windows, handling input, and rendering 3D graphics.
 
+## Gallery
+
+<table>
+  <tr>
+    <td><img src="images/img2.png" alt="Image 2" ></td>
+    <td><img src="images/img3.png" alt="Image 3"></td>
+  </tr>
+
+</table>
+
+
+
+
 ## Authors
 
 - [Filip Baranowski](https://github.com/Fizz874)
